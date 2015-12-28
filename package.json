@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/pocketmax/tardis-node/issues"
   },
-  "homepage": "https://github.com/pocketmax/tardis-node"
+  "homepage": "https://github.com/pocketmax/tardis-node",
+  "devDependencies": {
+    "collections": "^1.2.4"
+  },
+  "dependencies": {
+    "collections": "^1.2.4"
+  }
 }

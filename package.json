@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/pocketmax/tardis-node",
   "devDependencies": {
-    "collections": "^1.2.4"
+    "collections": "^1.2.4",
+    "promise": "^7.1.1"
   },
   "dependencies": {
     "collections": "^1.2.4"

@@ -22,7 +22,7 @@ var prevId = null;
 for(var i = 0; i<deltas.length; i++ ){
 	var delta = deltas[i];
 
-	Tardis.writer(delta.type, delta, prevId, function(eventId, eventBlock){
+	Tardis.writer(delta, prevId, function(eventId, eventBlock){
 		console.log('--------');
 		console.log('eventId: ' + eventId);
 		console.log('prevEventId: ' + prevId);

@@ -2,7 +2,7 @@ var core = {};
 
 //TODO:	cfg.maxCacheSize = 100000  figure out how to config from main app.js file
 
-core.Store = require('./store');
+//core.Store = require('./store');
 
 var StoreBroker = require('./storebroker');
 core.storeBroker = new StoreBroker();
